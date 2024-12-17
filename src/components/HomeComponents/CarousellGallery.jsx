@@ -8,7 +8,7 @@ export default function CarousellGallery() {
     triggerOnce: true,
   });
   return (
-    <section ref={ref} className="py-20 px-8 md:px-[8rem]">
+    <section ref={ref} className="pt-20 pb-8 px-8 md:px-[8rem]">
       {inView && (
         <>
           <div>
