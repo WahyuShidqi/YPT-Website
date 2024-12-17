@@ -1,0 +1,66 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    overflow-x: hidden;
+    padding: 0;
+    background: rgb(26, 26, 26);
+  }
+  body::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+@layer components {
+  /* BAGIAN NAVBAR */
+  /*general settings*/
+  nav {
+    @apply bg-white bg-opacity-5;
+    backdrop-filter: blur(5px);
+    height: 13%;
+  }
+
+  /*untuk searchbar*/
+  .searchbar {
+    width: 22rem;
+    height: 2.5rem;
+    border: none;
+    background-color: transparent;
+    caret-color: #fff;
+    color: #fff;
+  }
+  .searchbar::placeholder {
+    color: #e87d0e;
+  }
+  .searchbar:focus {
+    border-color: #e87d0e;
+    outline: none;
+    box-shadow: none;
+  }
+  /*untuk icon*/
+  .icon {
+    width: 1.625rem;
+    height: 1.625rem;
+  }
+
+  .searchform {
+    border: 1px solid #e87d0e;
+    border-radius: 8px 8px 8px 8px;
+    background-color: rgba(232, 166, 97, 0.3);
+    caret-color: #e87d0e;
+  }
+  /*text hover*/
+  .textlinkhover:hover {
+    transform: scale(1.2);
+  }
+
+  /*loginbutton hover*/
+  .loginbuttonhover:hover {
+    background-color: rgba(232, 166, 97, 0.3);
+    border: 1px solid #e87d0e;
+  }
+
+  /*NAVBAR END HERE*/
+}

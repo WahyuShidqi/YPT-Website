@@ -1,0 +1,11 @@
+footer a {
+  @apply hover:!text-yellow-300;
+}
+
+.igSVG {
+  fill: #a6adbb;
+}
+
+.igSVG:hover {
+  @apply hover:!fill-yellow-300;
+}
