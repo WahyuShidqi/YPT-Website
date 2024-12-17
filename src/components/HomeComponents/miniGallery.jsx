@@ -14,7 +14,7 @@ export default function MiniGallery() {
               <h2 className="animate-fade-right font-bold font-oswald text-sky-600 text-2xl md:text-3xl md:mr-16 ">
                 KUALITAS IKAN PREMIUM UNTUK DUNIA
               </h2>
-              <p className="mt-4 animate-fade-up md:pr-8">
+              <p className="mt-4 animate-fade-up md:pr-8 text-black">
                 Tridaya Pasifik Tuna berkomitmen untuk menyediakan hasil laut
                 berkualitas tinggi yang diproduksi dengan standar keberlanjutan
                 yang ketat. Dengan perhatian penuh terhadap proses pengolahan

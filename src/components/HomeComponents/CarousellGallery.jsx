@@ -24,7 +24,7 @@ export default function CarousellGallery() {
               <h2 className="animate-fade-right font-bold font-oswald mt-4 text-sky-600 text-2xl md:text-3xl lg:mt-0 ">
                 Segar dari Laut, Terjamin di Meja Anda
               </h2>
-              <p className="mt-4">
+              <p className="mt-4 text-black">
                 Produk perikanan Aceh diproses dengan standar kualitas terbaik,
                 memastikan kesegaran dan kelezatan yang tetap terjaga hingga ke
                 seluruh dunia.
