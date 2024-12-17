@@ -1,6 +1,7 @@
 /** @type {import('tailwindcss').Config} */
 import flowbite from "flowbite-react/tailwind";
 import tailwindAnimated from "tailwindcss-animated";
+import DaisyUI from "daisyui";
 
 export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}", flowbite.content()],
@@ -13,7 +14,7 @@ export default {
       },
     },
   },
-  plugins: [tailwindAnimated, flowbite.plugin(), require("daisyui")],
+  plugins: [tailwindAnimated, flowbite.plugin(), DaisyUI],
   daisyui: {
     themes: false, // false: only light + dark | true: all themes | array: specific themes like this ["light", "dark", "cupcake"]
     darkTheme: "dark", // name of one of the included themes for dark mode

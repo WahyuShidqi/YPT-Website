@@ -226,7 +226,7 @@ export default function Navbar() {
               </li>
               <li>
                 <Link
-                  to="/Kegiatan"
+                  to="/Berita"
                   className="block py-2 px-3 md:p-0 text-white rounded hover:bg-blue-700 md:hover:bg-transparent md:hover:text-blue-700 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
                   onClick={() => setIsOpen(false)} // Close menu on link click
                 >

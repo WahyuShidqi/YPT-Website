@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import "./Styles/Footer.css";
 
 export default function Footer() {
@@ -5,10 +6,18 @@ export default function Footer() {
     <>
       <footer className="footer footer-center bg-base-200 text-base-content rounded p-10">
         <nav className="grid grid-flow-col gap-4">
-          <a className="link link-hover ">About us</a>
-          <a className="link link-hover">Contact</a>
-          <a className="link link-hover">Products</a>
-          <a className="link link-hover">News</a>
+          <Link to="/Tentang-Kami" className="link link-hover ">
+            About us
+          </Link>
+          <Link to="/Kontak" className="link link-hover">
+            Contact
+          </Link>
+          <Link to="/Produk-Kami" className="link link-hover">
+            Products
+          </Link>
+          <Link to="/Berita" className="link link-hover">
+            News
+          </Link>
         </nav>
         <nav>
           <div className="grid grid-flow-col gap-4">
@@ -69,7 +78,7 @@ export default function Footer() {
         <aside>
           <p>
             Copyright © {new Date().getFullYear()} - All right reserved by
-            Tridaya Pasifik Tuna KSO
+            Tridaya Pasifik KSO
           </p>
         </aside>
       </footer>

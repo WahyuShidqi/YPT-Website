@@ -23,7 +23,7 @@ export default function App() {
                 <Route path="/" element={<Homepage />} />
                 <Route path="/Tentang-Kami" element={<About />} />
                 <Route path="/Produk-Kami" element={<OurProduct />} />
-                <Route path="/Kegiatan" element={<News />} />
+                <Route path="/Berita" element={<News />} />
                 <Route path="/Kontak" element={<Kontak />} />
               </Routes>
             </>

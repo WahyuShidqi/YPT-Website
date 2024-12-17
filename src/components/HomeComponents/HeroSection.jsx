@@ -15,7 +15,7 @@ export default function Herosection() {
         >
           <div className="Judul flex flex-col justify-start">
             <h1 className="text-cyan-400 font-oswald text-3xl md:text-5xl font-bold animate-fade-up">
-              Tridaya Pasifik Tuna:
+              Tridaya Pasifik KSO:
             </h1>
             <h2 className="text-white font-oswald text-2xl md:text-4xl font-semibold mt-6 animate-fade-left">
               Kekayaan laut Aceh untuk dunia

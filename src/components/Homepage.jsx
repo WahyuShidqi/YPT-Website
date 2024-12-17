@@ -5,6 +5,7 @@ import MiniGallery from "./HomeComponents/miniGallery";
 //import useIntersectionObserver from "./Script/useIntersectionObserver";
 import CarousellGallery from "./HomeComponents/CarousellGallery";
 import Footer from "./Footer";
+import WhyUs from "./HomeComponents/WhyUs";
 
 export default function Homepage() {
   return (
@@ -13,6 +14,7 @@ export default function Homepage() {
       <MiniGallery />
       <MediaSection />
       <CarousellGallery />
+      <WhyUs />
       <Footer />
     </section>
   );

@@ -15,7 +15,7 @@ export default function MiniGallery() {
                 KUALITAS IKAN PREMIUM UNTUK DUNIA
               </h2>
               <p className="mt-4 animate-fade-up md:pr-8 text-black">
-                Tridaya Pasifik Tuna berkomitmen untuk menyediakan hasil laut
+                Tridaya Pasifik KSO berkomitmen untuk menyediakan hasil laut
                 berkualitas tinggi yang diproduksi dengan standar keberlanjutan
                 yang ketat. Dengan perhatian penuh terhadap proses pengolahan
                 dan distribusi, kami memastikan setiap produk yang sampai ke
