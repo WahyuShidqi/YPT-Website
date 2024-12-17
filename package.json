@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://wahyushidqi.github.io/YPT-website/",
+  "homepage": "https://wahyushidqi.github.io/YPT-Website/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
