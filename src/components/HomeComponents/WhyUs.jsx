@@ -15,7 +15,7 @@ export default function WhyUs() {
   };
 
   return (
-    <section id="WhyUsSection" className="mt-12 lg:-mt-40" ref={ref}>
+    <section id="WhyUsSection" className="mt-12" ref={ref}>
       {inView && (
         <>
           <div className="flex flex-col px-8 bg-black py-20 text-white  lg:flex-row lg:justify-center lg:items-center">
