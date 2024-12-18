@@ -11,7 +11,7 @@ export default function Herosection() {
         />
         <div
           id="Tagline"
-          className="absolute  left-[10%] top-1/2 px-4 md:w-1/2  transform -translate-y-1/2 "
+          className="absolute  left-[10%] top-1/2 px-4 lg:w-1/2  transform -translate-y-1/2 "
         >
           <div className="Judul flex flex-col justify-start">
             <h1 className="text-cyan-400 font-oswald text-3xl md:text-5xl font-bold animate-fade-up">

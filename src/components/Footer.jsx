@@ -22,7 +22,7 @@ export default function Footer() {
         <nav>
           <div className="grid grid-flow-col gap-4">
             <a
-              href="https://openai.com/index/chatgpt/"
+              href="https://x.com/TridayaKSO"
               className="hover:scale-125 hover:-translate-y-1 transition-transform "
             >
               <svg
@@ -36,7 +36,7 @@ export default function Footer() {
               </svg>
             </a>
             <a
-              href="https://www.instagram.com/"
+              href="https://www.instagram.com/tridayapasifik.kso/"
               className=" hover:scale-125 hover:-translate-y-1 transition-transform"
             >
               <svg
@@ -60,7 +60,7 @@ export default function Footer() {
               </svg>
             </a>
             <a
-              href="https://www.facebook.com/"
+              href="https://www.facebook.com/profile.php?id=61570836929906"
               className="hover:scale-125 hover:-translate-y-1 transition-transform"
             >
               <svg

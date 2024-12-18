@@ -16,7 +16,7 @@ export default function MediaSection() {
               className="animate-fade-right md:mr-10 w-auto h-auto"
             >
               <iframe
-                className="w-80 h-44 md:w-[560px] md:h-[315px]"
+                className="w-full max-w-xl h-80 md:max-w-2xl md:w-[560px] md:h-[315px]"
                 //width="560"
                 //height="315"
                 src="https://www.youtube.com/embed/2iMl-CIyKxA?si=wN2YXQ_CrGM__cxT"
